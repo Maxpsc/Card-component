@@ -1,0 +1,53 @@
+
+.card{
+	position:relative;
+	width:200px;
+	height:300px;
+	box-sizing:border-box;
+	padding:8px;
+	background-color: #CCC;
+	border-radius:20px;
+	box-shadow: lighten(#000,20%) 1px 2px 4px;
+	overflow: hidden;
+	text-align: center;
+	font-family: Microsoft YaHei;
+	transition:all .2s ease-out;
+	cursor:pointer;
+	user-select:none;
+	-moz-user-select:none;
+    -webkit-user-select:none;
+	.title{
+		line-height: 20px;
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 8px;
+		transition:all .1s ease-in;
+	}
+	.content{
+		color:#000;
+	}
+	.hideBtn,.showBtn{
+		position:absolute;
+		bottom:0;
+		right:0;
+		width:40px;
+		height:40px;
+		line-height: 40px;
+		border-radius: 20px;
+		background-color: red;
+		color:#FFF;
+		cursor:pointer;
+	}
+	.showBtn{
+		top:0;
+		background-color: green;
+	}
+}
+.hideCard{
+	height:40px;
+	box-shadow: lighten(#000,10%) 2px 6px 12px;
+	.title{
+		font-size: 24px;
+	}
+}
+
